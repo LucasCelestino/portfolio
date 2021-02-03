@@ -1,0 +1,152 @@
+.main-header
+{
+    background-color: #191919;
+    color: #FFF;
+    font-family: Barlow;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+}
+
+.main-header .menu
+{
+    height: inherit;
+}
+
+.menu-desktop
+{
+    height: inherit;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+.menu-desktop ul
+{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-desktop ul li:hover
+{
+    transition: 1s;
+    color: #da0c4a;
+}
+
+.menu-mobile
+{
+    display: none;
+}
+
+.menu-mobile img
+{
+    cursor: pointer;
+    margin-top: 5px;
+    float: right;
+}
+
+
+.menu-mobile ul
+{
+    background-color: #191919;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50px;
+    text-align: center;
+}
+
+.menu-mobile ul li
+{
+    padding: 13px 0;
+}
+
+.banner-home
+{
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../images/banner3.png);
+}
+
+.opacity-banner
+{
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-infos-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.banner-infos-wrapper strong
+{
+    font-weight: bold;
+}
+
+.banner-infos-wrapper p
+{
+    color: #da0c4a;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Abel;
+}
+
+.banner-infos-wrapper h1
+{
+    max-width: 650px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Barlow;
+    color: #FFF;
+}
+
+.banner-social-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.main-footer
+{
+    background-color: #191919;
+    color: #FFF;
+    font-family: Abel;
+    padding: 20px 0;
+}
+
+.contact-wrapper
+{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.contact-wrapper .item
+{
+    display: flex;
+    align-items: center;
+}
+
+.contact-wrapper .item img
+{
+    margin-right: 10px;
+}

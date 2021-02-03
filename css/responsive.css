@@ -1,0 +1,148 @@
+
+@media screen and (max-width:1024px)
+{
+    .projetos-wrapper
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projetos-wrapper .item
+    {
+        width: 600px !important;
+        height: 400px !important;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .margin-container
+    {
+        max-width: 900px;
+    }
+
+    .habilidades-wrapper
+    {
+        flex-wrap: wrap;
+    }
+
+    .habilidades-wrapper .item
+    {
+        width: 45% !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    .menu-desktop
+    {
+        display: none;
+    }
+
+    .menu-mobile
+    {
+        display: block !important;
+    }
+
+    .menu-mobile ul
+    {
+        display: none;
+    }
+
+    .margin-container
+    {
+        max-width: 550px;
+    }
+
+    .sobre-content-wrapper
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre-img
+    {
+        width: 100% !important;
+        margin-bottom: 20px; 
+    }
+    
+    .sobre-infos
+    {
+        width: 100% !important;
+    }
+
+    .sobre-infos p,h2
+    {
+        text-align: center;
+    }
+
+    .hobbies-wrapper
+    {
+        justify-content: center;
+    }
+
+    .sobre-content-wrapper
+    {
+        padding: 15px !important;
+    }
+
+    .title-sections
+    {
+        justify-content: center;
+    }
+
+    .habilidades-wrapper .item
+    {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width:400px)
+{
+    .projetos-wrapper
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projetos-wrapper .item
+{
+    width: 100%;
+    height: 250px !important;
+    background-size: cover;
+    background-position: center;
+}
+
+    .margin-container
+    {
+        max-width: 300px !important;
+    }
+
+    .habilidades-wrapper .item
+    {
+        width: 280px !important;
+        margin-bottom: 30px;
+    }
+
+    .contact-wrapper
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-wrapper .item
+    {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    .margin-container
+    {
+        max-width: 250px !important;
+    }
+}

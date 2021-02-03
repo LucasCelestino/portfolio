@@ -1,0 +1,131 @@
+section
+{
+    transition: 2s all !important;
+}
+
+.margin-container
+{
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+}
+
+.padding-container
+{
+    padding: 40px 0;
+}
+
+.title-sections
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Abel;
+    display: flex;
+}
+
+.title-sections p
+{
+    margin-left: 6px !important;
+}
+
+.text-red
+{
+    color: #da0c4a;
+}
+
+.bg-red
+{
+    background-color: #da0c4a;
+}
+
+.text-white
+{
+    color: #FFF;
+}
+
+.bg-white
+{
+    background-color: #FFF;
+}
+
+.text-black
+{
+    color: #000;
+}
+
+.bg-black
+{
+    background-color: #000;
+}
+
+.underline
+{
+    width: 100%;
+    margin-top: 5px !important;
+    margin-bottom: 30px !important;
+    border-radius: 100px;
+    height: 2px;
+    margin: auto;
+}
+
+@font-face
+{
+    font-family: Libre-Franklin;
+    src: url("../fonts/LibreFranklin-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: Nunito;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: Raleway;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: Heebo;
+    src: url("../fonts/Heebo-VariableFont_wght.ttf");
+}
+
+@font-face
+{
+    font-family: Quicksand;
+    src: url("../fonts/Quicksand-VariableFont_wght.ttf");
+}
+
+@font-face
+{
+    font-family: Yanone;
+    src: url("../fonts/YanoneKaffeesatz-VariableFont_wght.ttf");
+}
+
+@font-face
+{
+    font-family: Barlow;
+    src: url("../fonts/Barlow-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: Abel;
+    src: url("../fonts/Abel-Regular.ttf");
+}
